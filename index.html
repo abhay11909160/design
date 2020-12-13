@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        <title>Design</title>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap.css">
+       <style>
+       
+
+body {
+  background: var(--background);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.ticket {
+  width: 350px;
+  height: 150px;
+  margin: 100px auto;
+  position: relative;
+  transition: all 300ms cubic-bezier(0.03, 0.98, 0.53, 0.99) 0s;
+  
+  border-radius: 20px;
+  padding: 5px;
+}
+
+.ticket:before,
+.ticket:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  z-index: 2;
+ background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(67,6,153,1) 0%);
+}
+
+.ticket:before {
+  border: 5px;
+  left: -35px;
+  clip-path: circle(65% at 100% 50%);
+}
+
+.ticket:after {
+  border: 5px;
+  right: -35px;
+  clip-path: circle(65% at 0 50%);
+}
+
+.ticket-content-wrapper1 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(11,162,228,0.8718837876947654) 0%, rgba(11,228,185,0.8998949921765581) 62%);
+  border-radius: 15px;
+}
+.ticket-content-wrapper2 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(232,197,121,0.8998949921765581) 0%, rgba(255,160,8,0.8718837876947654) 73%);
+  border-radius: 15px;
+}
+.ticket-content-wrapper3 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(11,162,228,0.8718837876947654) 0%, rgba(11,228,185,0.8998949921765581) 62%);
+  border-radius: 15px;
+}
+
+
+h6{
+ 
+  text-transform: uppercase;
+  transform: rotate(270deg);
+  transform-origin: right bottom 1;
+  margin-top: 80px;
+  margin-bottom: 17px;
+  padding-top: 24px;
+  padding-left: 17px;
+
+}
+
+h2{
+font-size: 200%;
+}
+.text1{
+  font-size: 75%;
+}
+
+.text2{
+border:2px ;
+
+border-top-right-radius:30px;
+border-bottom-right-radius:30px ; 
+background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(211,131,230,1) 0%);
+padding:20px 10% 20px 27%;
+}
+.button{
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(232,48,18,0.8964497041420119) 0%, rgba(255,127,0,0.8698224852071006) 85%);
+  font-size: 20px;
+  border-radius:25px;
+  padding:15px 40px 15px 40px;
+}
+.button:hover{
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(150,18,232,0.8964497041420119) 0%, rgba(255,0,244,0.8698224852071006) 85%);
+  font-size: 20px;
+  border-radius:25px;
+  padding:15px 40px 15px 40px;
+
+}
+       </style>
+    </head>
+    <body><section>
+      <div class="container">
+  <div class="row">
+        <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12" style="background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(66,19,168,0.7290266448376226) 0%);">
+  <center>
+    <br><br><br>
+    <h3>Hello <span style="color: orange">Amit Lulla,</span></h3>
+     <br><br><br>
+     <span >You have a reward balance of<p>USD <b>24.10, 90</b> points,<b> 30</b> diamonds, and n X</p></span>
+     <br>
+      </center>
+     <span class="text2"> <b>Redeemable Currency Available: <span style="color:#00ff00">USD 24.10</span></b></span>
+     <br>
+     <br>
+     <br>
+ <center>
+   <h5><p>Earn 1 Point for every <b>&#8377 1.00</b> spent</p><b>100</b> Points gets you <b>&#8377 10.00</b> </h5> 
+   <br>
+     <br>
+     <span class="button">Close</span>
+ </center>
+ <br>
+ <br>
+ <br>
+</div>
+        <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12" style="background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(67,6,153,1) 0%);">
+<br>
+<center><b >AVAILABLE DISCOUNTS</b></center>
+       <div class="ticket">
+         
+
+       
+  <div class="ticket-content-wrapper1">
+   <div class="container">
+  <div class="row">
+    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2" style="background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(66,19,168,0.7290266448376226) 0%);"><h6 ><b> HOODIE</b></h6> </div>
+        
+<div class="col-lg-10 col-md-10 col-sm-10 col-xs-10" >
+  <h2>15%</h2><span class="text1">
+  Discount on woo-hoodie up to 300 item(s)<p>15% against 60 Reward type:<b>Smilies.</b></p>
+  <span style="color:black;"> <b>ADD ITEM TO AVAIL DISCOUNT</b></span></span>
+</div>
+</div>
+</div>
+  </div>
+</div>
+<div class="ticket">
+  <div class="ticket-content-wrapper2">
+     <div class="container">
+  <div class="row">
+       <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2" style="background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(66,19,168,0.7290266448376226) 0%);"><h6><b>RECEIPT</b></h6> </div>
+        
+<div class="col-lg-10 col-md-10 col-sm-10 col-xs-10" >
+  <h2>10%</h2><span class="text1">
+  Discount on reciept: 10% against<p>2 Reward type:<b>Diamomd.</b></p>
+  <span style="color:black;"> <b>BUY MORE TO GET DISCOUNT</b></span></span>
+</div>
+</div>
+</div>
+  </div>
+</div>
+<div class="ticket">
+  <div class="ticket-content-wrapper3">
+     <div class="container">
+  <div class="row">
+       <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2" style="background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(66,19,168,0.7290266448376226) 0%);"><h6><b>ITEMS</b></h6> </div>
+        
+<div class="col-lg-10 col-md-10 col-sm-10 col-xs-10" >
+  <h2>5%</h2><span class="text1">
+  Discount on Polo: T-shirt, Sunglasses, items:<p>5% against 3 Reward type:<b>Smilies.</b></p>
+  <span style="color:black;"> <b>ADD ITEM TO AVAIL DISCOUNT</b></span></span>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</div>
+</div></div></section>
+    </body>
+    </html>
